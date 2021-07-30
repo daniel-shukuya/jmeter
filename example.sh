@@ -21,5 +21,4 @@ rm -f ${JTL} ${LOG}
 	-j ${LOG} \
 	-Jthreads=${THREADS} \
 	-Jrampup=${RAMPUP} \
-	-Jduration=${DURATION} \
-	-Jloop=${DURATION}
+	-Jduration=${DURATION}

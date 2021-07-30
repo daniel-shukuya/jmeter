@@ -12,7 +12,7 @@ s=$(($freeMem/10*8))
 x=$(($freeMem/10*8))
 n=$(($freeMem/10*2))
 #export JVM_ARGS="-Xmn${n}m -Xms${s}m -Xmx${x}m"
-export JVM_ARGS="-Xms4096m –Xmx4096m"
+export JVM_ARGS="-Xms2g -Xmx2g"
 
 echo "                                      "
 echo "                                      "
